@@ -1,0 +1,95 @@
+.skills-section {
+    height: 400px;
+    width: 1000px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  
+  
+  .skill-card {
+    height: 360px;
+    width: 950px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-image {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin-bottom: 8px;
+  }
+  
+  .skill-card p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+  }
+  @media (max-width: 768px) {
+    
+    
+  
+    .skill-image {
+      width: 100px;
+      height: 100px;
+    }
+  
+    
+  }
+  .foot-section{
+    margin-top: 40px;
+    gap: 30px;
+    height: 100px;
+    width: 300px;
+    padding: 20px;
+    background-color: #080869;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  .foot:hover{
+    transform: scale(1.05);
+  }
+
+  .foot{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20%;
+    height: 100px;
+    width: 200px;
+    transition: transform 0.2s ease,
+  }
+
+
+.foot a i {
+  transition: transform 0.3s ease, color 0.3s ease ;
+}
+
+.foot a i:hover{
+  transform: rotate(360deg);
+}
+
+.foot .img1 i:hover{
+  color: goldenrod;
+}
+
+.foot .img2 i:hover{
+  color: blueviolet;
+}
+
+.foot .img3 i:hover{
+  color: blue;
+}
